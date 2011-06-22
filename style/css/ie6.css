@@ -1,0 +1,6 @@
+#navigation { margin-bottom: -3px; }
+ul#homeContent li h3 { padding-top: 3px; }
+ul#homeContent li .copy { height: 150px; }
+#headerWrapper { z-index: 2; }
+#contentWrapper { z-index: 1; }
+#navigation { margin-bottom: -5px; }
