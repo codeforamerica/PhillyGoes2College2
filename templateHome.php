@@ -5,43 +5,42 @@
  * Template Name: Home
  */
 
-include 'headerHome.php'; ?>
+get_header(); ?>
 
 <ul id="homeContent" class="clearfix">
-  <li class="hidden"><h2>Home</h2></li>
   <li>
     <img src="<?php bloginfo('template_directory'); ?>/style/images/homeContentForStudents.jpg" alt="Photo of Student" class="photo" />
-    <h3><a href="/students"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeHeaderForStudents.gif" alt="For Student" class="headline" /></a></h3>
+    <h3><a href="<?php echo site_url('students'); ?>"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeHeaderForStudents.gif" alt="For Student" class="headline" /></a></h3>
     <div class="copy">
       <p><strong>Are you a student looking to go to college?</strong> If you&#8217;re in school now and want to go to college, click here to find the resources you need to get there.</p>
     </div>
-    <a href="/students" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeButtonForStudents.png" alt="Resources For Students" /></a>
+    <a href="<?php echo site_url('students'); ?>" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeButtonForStudents.png" alt="Resources For Students" /></a>
   </li>
   <li>
     <img src="<?php bloginfo('template_directory'); ?>/style/images/homeContentForParents.jpg" alt="Photo of Student" class="photo" />
-    <h3><a href="/parentsandmentors"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeHeaderForParents.gif" alt="For Students" class="headline" /></a></h3>
+    <h3><a href="<?php echo site_url('parentsandmentors'); ?>"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeHeaderForParents.gif" alt="For Students" class="headline" /></a></h3>
     <div class="copy">
      <p><strong>Are you an adult looking to help a student go to college?</strong> If there&#8217;s a student in your life who wants to go to college, click here to find the resources you need to help them get there.<p>
     </div>
-    <a href="/parentsandmentors" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeButtonForParents.png" alt="Resources For Students" /></a>
+    <a href="<?php echo site_url('parentsandmentors'); ?>" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeButtonForParents.png" alt="Resources For Students" /></a>
   </li>
   <li class="last">
     <img src="<?php bloginfo('template_directory'); ?>/style/images/homeContentForAdultStudents.jpg" alt="Photo of Student" class="photo" />
-    <h3><a href="/adultstudents"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeHeaderForAdultStudents.gif" alt="For Students" class="headline" /></a></h3>
+    <h3><a href="<?php echo site_url('adultstudents'); ?>"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeHeaderForAdultStudents.gif" alt="For Students" class="headline" /></a></h3>
     <div class="copy">
       <p><strong>Are you an adult (19 years of age or older) and have some college credit or have never attended college and want to get a degree?</strong> Click here to find the resources you need to get there.</p>
     </div>
-    <a href="/adultstudents" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeButtonForAdultStudents.png" alt="Resources For Students" /></a>
+    <a href="<?php echo site_url('adultstudents'); ?>" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeButtonForAdultStudents.png" alt="Resources For Students" /></a>
   </li>
 </ul>
-<span style="font-size:medium;"> <i> The PhillyGoes2College office is a referral center within the Mayor’s Office of Education that helps Philadelphians of all ages earn a college degree. When you call, email, or visit the office we will connect you with organizations that will help you through the college application process. We can also provide information on preparing for college, returning to college as an adult, finding financial aid, and much more.  <a href="http://www.phillygoes2college.org/1215-2" target=blank>Para www.PhillyGoes2College.com en Español haga clic aquí.</a> </i> </span>
+<span style="font-size:medium;"> <i> The PhillyGoes2College office is a referral center within the Mayor’s Office of Education that helps Philadelphians of all ages earn a college degree. When you call, email, or visit the office we will connect you with organizations that will help you through the college application process. We can also provide information on preparing for college, returning to college as an adult, finding financial aid, and much more.  <a href="<?php echo site_url('1215-2'); ?>" target=blank>Para www.PhillyGoes2College.com en Español haga clic aquí.</a> </i> </span>
   <p>
     <br>
     <br> 
-  <a href="http://www.phillygoes2college.org/home/campaign" target_blank><img src="http://www.phillygoes2college.org/wp-content/uploads/2011/01/FAFSA-Logo-e1294927057149.png" ALIGN="left"></a>  <span style="font-family:courier new ms;font-size:x-large;"> <strong>City-Wide Financial Aid and FAFSA Completion Campaign</strong></span> 
+  <a href="<?php echo site_url('home/campaign'); ?>" target_blank><img src="http://www.phillygoes2college.org/wp-content/uploads/2011/01/FAFSA-Logo-e1294927057149.png" ALIGN="left"></a>  <span style="font-family:courier new ms;font-size:x-large;"> <strong>City-Wide Financial Aid and FAFSA Completion Campaign</strong></span> 
       <p>
         <p>
-          <span style="font-size:medium;"> <a href="http://www.phillygoes2college.org/home/campaign" target_blank>Click here to learn how to get hands on help completing the FAFSA (Free Application for Federal Student Aid), the most important financial aid document.</a> Partners in the City-Wide Financial Aid and FAFSA campaign are offering free workshops all over Philadelphia. </span>
+          <span style="font-size:medium;"> <a href="<?php echo site_url('home/campaign'); ?>" target_blank>Click here to learn how to get hands on help completing the FAFSA (Free Application for Federal Student Aid), the most important financial aid document.</a> Partners in the City-Wide Financial Aid and FAFSA campaign are offering free workshops all over Philadelphia. </span>
     <p>
         <BR CLEAR="left"> 
 <br>
@@ -70,15 +69,15 @@ include 'headerHome.php'; ?>
         <li><span>If you&#8217;re in 9th grade, you should start to plan ahead NOW to choose the high school classes you will need to get into the college of your choice. Check with your college guidance counselor to make sure you&#8217;re on the right track.</span></li>
         <li><span>If you are in high school, you&#8217;ll need to take a college admission test to get admitted to college.  Take the PSATs (which is a practice test), prior to taking the SAT or ACT test. Check out the <a href="http://www.freelibrary.org">Free Library</a> near you for resources to study for the tests. They have books to help you study and also provide free SAT prep classes throughout the year. They provide free SAT prep classes and basic college prep workshops throughout the year.</span></li>
         <li><span>Paying for college is sometimes the biggest challenge for all students – whether you&#8217;re currently in school or not. You need to plan for how to pay for college way before you enroll.  </span></li>
-        <li><span>If you need financial aid, the first step is to complete the FAFSA form (which stands for the Free Application for Federal Student Aid) to find out how much money you are eligible to receive to go to college. You can find information on organizations that can help by <a href="/students/find-ways-to-pay-for-college">clicking here</a>.</span></li>
-        <li><span>Ask for help! Going to college can be confusing.  People want to help. If you don&#8217;t ask for guidance, you will never get it! There are on-line resources you can get through on this website by <a href="/students/connect-to-a-caring-adult">clicking here</a>. </span></li>
+        <li><span>If you need financial aid, the first step is to complete the FAFSA form (which stands for the Free Application for Federal Student Aid) to find out how much money you are eligible to receive to go to college. You can find information on organizations that can help by <a href="<?php echo site_url('students/find-ways-to-pay-for-college'); ?>">clicking here</a>.</span></li>
+        <li><span>Ask for help! Going to college can be confusing.  People want to help. If you don&#8217;t ask for guidance, you will never get it! There are on-line resources you can get through on this website by <a href="<?php echo site_url('students/connect-to-a-caring-adult'); ?>">clicking here</a>. </span></li>
       </ol>
     </div>
     <div class="bottom"></div>
   </div>
   <div id="upcomingEvents" class="clearfix">
     <h4><img src="<?php bloginfo('template_directory'); ?>/style/images/homeUpcomingHeader.png" alt="Upcoming Events To Help You Go 2 College" class="headline" /></h4>
-    <p><a href="/category/events/month">Click here</a> to find events that are free or low cost that will help you go 2 college.</p>
+    <p><a href="<?php echo site_url('category/events/month'); ?>">Click here</a> to find events that are free or low cost that will help you go 2 college.</p>
     <?php get_sidebar(); ?>
   </div>
   <div id="stopIn">
@@ -105,7 +104,7 @@ include 'headerHome.php'; ?>
 
 <div id="alternateLanguages">
   <div id="pleaseCall">
-    <a href="http://www.phillygoes2college.org/1215-2" target=blank>www.PhillyGoes2College.com en Español</a>
+    <a href="<?php echo site_url('1215-2'); ?>" target=blank>www.PhillyGoes2College.com en Español</a>
     <br>
     <br>
       Please call 215.686.0315 if you would like information about college. 

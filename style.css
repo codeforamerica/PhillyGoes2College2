@@ -7,4 +7,122 @@ Author URI: http://www.josephfritz.com
 */
 
 @import "style/css/reset.css";
-@import "style/css/global.css";
+
+/*--- GENERAL STYLING ---*/
+body { 
+	text-align: center;
+	background: url(images/bodyBG.png) repeat top left; font-size: 13px; line-height: 22px; color: #1f1d11; font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif; color: #333;  }
+a { color: #005e98; text-decoration: underline; }
+
+#contentWrapper{
+	background-image: url('images/contentWrapperBG.png');
+	background-repeat: repeat-x;
+}
+#content{
+	margin: 0 auto;
+	padding-top: 20px;
+	width: 810px;
+	text-align: left;
+}
+h1, h2, h3, h4, h5, strong{
+	color:#000;
+}
+h2{
+	font-size: 170%;
+}
+h3{
+	font-size:130%;
+	font-weight: 100;
+}
+
+/*--- HEADER ---*/
+#headerWrapper { background: #a4d8f7 url(images/headerWrapperBG.png) repeat-x top left; height: 150px; text-align: center; padding: 0 20px; }
+#header { background: url(images/headerBG.png) no-repeat bottom center; width: 810px; height: 150px; padding: 0; margin: 0 auto; text-align: left;  }
+#header h1 a { width: 160px; height: 166px; float: left; }
+
+/* TOP NAV */
+#menu-top-navigation{
+	float:right;
+	margin-top: 116px;
+}
+#menu-top-navigation li{
+	padding: 0 5px;
+	float:left;
+	height:34px;
+}
+#menu-top-navigation a{
+	font-size: 135%;
+	height:34px;
+	line-height: 34px;
+	padding:0 20px;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background: #0076aa -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00b2e9), to(#0076aa));
+	background: #0076aa -moz-linear-gradient(-90deg,#00b2e9,#0076aa);
+	-moz-box-shadow: 0px -1px 2px #555;
+	-webkit-box-shadow: 0px -1px 2px #555;
+	box-shadow: 0px -1px 2px #555;	
+}
+
+#menu-top-navigation .current_page_item a,
+#menu-top-navigation .current_page_item a:hover,
+#menu-top-navigation .current-page-ancestor a,
+#menu-top-navigation .current-page-ancestor a:hover {
+	background-image: url('images/contentWrapperBG.png');
+	background-repeat: repeat-x;
+	background-position: top;
+	color:#333;
+	-moz-box-shadow: 0px -2px 2px #555;
+	-webkit-box-shadow: 0px -2px 2px #555;
+	box-shadow: 0px -2px 2px #555;	
+}
+
+#menu-top-navigation a:hover{
+	-moz-box-shadow: 0px -1px 3px #333;
+	-webkit-box-shadow: 0px -1px 3px #333;
+	box-shadow: 0px -1px 3px #333;	
+}
+
+/* SUBNAV */
+.subnav{
+	float:left;
+	width: 215px;
+	background-color: #fff;
+	border-bottom: 1px solid #999;
+	padding:15px;
+	-moz-box-shadow: 0px 0px 2px #aaa;
+	-webkit-box-shadow: 0px 0px 2px #aaa;
+	box-shadow: 0px 0px 2px #aaa;	
+	margin-top:5px;
+}
+.subnav ul{
+	list-style: none;
+}
+.subnav li{
+	margin: .5em;
+}
+
+/* PAGE */
+.post{
+	width:530px;
+	float:right;
+}
+.post h3{
+	margin-top:1em;
+	font-weight: bold;
+}
+
+/* FOOTER */
+#footer{
+	width: 100%;
+	clear: both;
+	padding-top:2em;
+	text-align: right;
+	margin:0 auto;
+	width:800px;
+}

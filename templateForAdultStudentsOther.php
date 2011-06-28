@@ -9,7 +9,7 @@ get_header(); ?>
 
 <div id="subnav" class="otherResources clearfix">
 	<div class="top">
-		<h3><img class="headline" src="<?php bloginfo('template_directory'); ?>/style/images/forAdultStudentsSubnavHeader.gif" alt="Resources for Adult Students" /></h3>
+		<h3>Resources for Adult Students</h3>
 		<ul>
 			<?php include('wp-content/themes/pg2c/subnav/forAdultStudents.php'); ?>
 		</ul>
@@ -18,7 +18,7 @@ get_header(); ?>
 </div>
 <div id="pageCopy">
 	<h2 class="hidden">For Adult Students</h2>
-	<h3><img class="headline" src="<?php bloginfo('template_directory'); ?>/style/images/forAdultStudentsOtherHeader.png" alt="Other Resources for General College Information" /></h3>
+	<h3>Other Resources for General College Information</h3>
 	<p>Going to college is a process. And it takes some work to find the right path for you. Fortunately, there are some great website resources that can help you figure it all out.</p>
 	<ul class="resources">
 		<li class="clearfix">

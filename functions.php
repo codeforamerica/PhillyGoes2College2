@@ -14,4 +14,9 @@ if ( function_exists('register_sidebar') ) {
 		'after_title' => '</h2>',
 	));
 }
+
+if ( function_exists( 'register_nav_menu' ) ) {
+	register_nav_menu( 'top_nav', 'Top Navigation' );
+}
+
 ?>

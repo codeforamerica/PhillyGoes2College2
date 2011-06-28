@@ -65,10 +65,8 @@ ob_start('relative_links');
 		
 		<div id="headerWrapper">
 			<div id="header" class="clearfix">
-				<h1><a href="<?php echo get_option('home'); ?>/"><span class="hidden">PhillyGoes2College.com</span></a></h1>
-				<ul id="navigation" class="clearfix">
-					<?php wp_list_pages('depth=1&title_li=<h2>Pages</h2>&exclude=201,284,332,337' ); ?>
-				</ul>
+				<h1><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/headerLogo.png" alt="Philly Goes 2 College" /></a></h1>
+					<?php wp_nav_menu(array('menu' => 'top_nav')); ?>
 			</div>
 		</div>
 		<div id="contentWrapper">
