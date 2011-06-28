@@ -1,8 +1,8 @@
 /*
-Theme Name: PG2C
+Theme Name: PG2C2
 Description: Designed for PhillyGoes2College.com
 Version: 1.0
-Author: Joe Fritz
+Author: Designed by Joe Fritz, developed by Code for America
 Author URI: http://www.josephfritz.com
 */
 
@@ -112,9 +112,15 @@ h3{
 	width:530px;
 	float:right;
 }
-.post h3{
+.post p{
+	margin-bottom: 1em;
+}
+.post h3, .post h4{
 	margin-top:1em;
 	font-weight: bold;
+}
+.post h2{
+	margin-bottom:1em;
 }
 
 /* FOOTER */
