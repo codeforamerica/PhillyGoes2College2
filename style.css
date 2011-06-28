@@ -132,3 +132,40 @@ h3{
 	margin:0 auto;
 	width:800px;
 }
+
+/*--- HOME PAGE ---*/
+ul#homeContent { margin: 0 0 35px 0; }
+ul#homeContent li { float: left; width: 253px; height: 457px; margin-right: 25px; background: url(images/homeContentBG.png) no-repeat top left; }
+ul#homeContent li.last { margin: 0; }
+ul#homeContent li .photo { margin: 0 0 0 1px; }
+ul#homeContent li h3 { padding: 0 0 5px 20px; }
+ul#homeContent li .copy { height: 145px; line-height: 20px; }
+ul#homeContent li p { padding: 0 20px; margin: 13px 0 0 0; }
+ul#homeContent li p.strong { font-weight: bold; }
+ul#homeContent li a.buttonLink { margin: 0 0 0 17px; display: block; }
+#nutter { height: 141px; border: 1px solid #b7b7b7; border-left: 0; border-right: 0; margin: 0 0 38px 0;}
+#nutter #michaelNutter { float: left; margin: 10px 0 0 52px; }
+#nutter #nutterQuote { float: right; margin: 25px 36px 0 0; }
+#nutter a { float: right; clear: right; margin: 6px 36px 0 0; }
+#topReasons { width: 361px; float: left; margin: 0 0 35px 0; }
+#topReasons .top { float: left; width: 319px; background: url(images/homeTopReasonsTop.png) no-repeat top left; padding: 20px 20px 10px 20px; }
+#topReasons h4 { margin: 0 0 15px 0; }
+#topReasons ol { list-style-type: decimal; margin-left: 20px; }
+#topReasons ol li { margin-bottom: 15px; font-weight: bold; }
+#topReasons ol li span { font-weight: 400; }
+#topReasons .bottom { float: left; width: 361px; height: 9px; line-height: 0; background: url(images/homeTopReasonsBottom.png) no-repeat top left; }
+#pleaseCall { margin-bottom: 24px; font-weight: bold; font-size: 16px; text-align: center; }
+#upcomingEvents { float: right; width: 418px; border-bottom: 1px solid #b7b7b7; padding: 0 0 20px 0; margin-bottom: 20px; }
+#upcomingEvents h4 { margin-bottom: 12px; }
+#upcomingEvents p { margin-bottom: 20px; }
+#upcomingEvents .what { line-height: 12px; }
+#upcomingEvents .event { margin-top: -2px; line-height: 16px; }
+#upcomingEvents .event p { margin: 0; line-height: 16px; }
+#upcomingEvents .upcoming li { margin-bottom: 12px; }
+#upcomingEvents .calendarImage { float: left; width: 18px; margin: 0 12px 0 0; }
+#upcomingEvents .calendarDetails { float: left; width: 388px; position: relative; top: -4px; }
+h2.widgettitle { display: none; }
+#stopIn { float: right; clear: right; width: 418px; margin-bottom: 35px; }
+#stopIn h4 { margin-bottom: 8px; }
+#stopIn .image { margin-top: 20px; padding-top: 20px; border-top: 1px solid #b7b7b7; }
+#alternateLanguages { border-top: 1px solid #b7b7b7; margin: 0 0 38px 0; padding-top: 38px; }

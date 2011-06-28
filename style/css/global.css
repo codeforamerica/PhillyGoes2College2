@@ -49,7 +49,7 @@ a:hover {  }
 
 /*--- HOME PAGE ---*/
 ul#homeContent { margin: 0 0 35px 0; }
-ul#homeContent li { float: left; width: 253px; height: 457px; margin-right: 25px; background: url(../images/homeContentBG.png) no-repeat top left; }
+ul#homeContent li { float: left; width: 253px; height: 457px; margin-right: 25px; background: url(images/homeContentBG.png) no-repeat top left; }
 ul#homeContent li.last { margin: 0; }
 ul#homeContent li .photo { margin: 0 0 0 1px; }
 ul#homeContent li h3 { padding: 0 0 5px 20px; }
@@ -62,12 +62,12 @@ ul#homeContent li a.buttonLink { margin: 0 0 0 17px; display: block; }
 #nutter #nutterQuote { float: right; margin: 25px 36px 0 0; }
 #nutter a { float: right; clear: right; margin: 6px 36px 0 0; }
 #topReasons { width: 361px; float: left; margin: 0 0 35px 0; }
-#topReasons .top { float: left; width: 319px; background: url(../images/homeTopReasonsTop.png) no-repeat top left; padding: 20px 20px 10px 20px; }
+#topReasons .top { float: left; width: 319px; background: url(images/homeTopReasonsTop.png) no-repeat top left; padding: 20px 20px 10px 20px; }
 #topReasons h4 { margin: 0 0 15px 0; }
 #topReasons ol { list-style-type: decimal; margin-left: 20px; }
 #topReasons ol li { margin-bottom: 15px; font-weight: bold; }
 #topReasons ol li span { font-weight: 400; }
-#topReasons .bottom { float: left; width: 361px; height: 9px; line-height: 0; background: url(../images/homeTopReasonsBottom.png) no-repeat top left; }
+#topReasons .bottom { float: left; width: 361px; height: 9px; line-height: 0; background: url(images/homeTopReasonsBottom.png) no-repeat top left; }
 #pleaseCall { margin-bottom: 24px; font-weight: bold; font-size: 16px; text-align: center; }
 #upcomingEvents { float: right; width: 418px; border-bottom: 1px solid #b7b7b7; padding: 0 0 20px 0; margin-bottom: 20px; }
 #upcomingEvents h4 { margin-bottom: 12px; }
@@ -88,8 +88,8 @@ h2.widgettitle { display: none; }
 #subnav, #pageCopy, #landingPhoto { margin-bottom: 35px; }
 #landingPhoto { float: left; width: 253px; position: relative; }
 #subnav { float: left; width: 253px; position: relative; }
-#subnav .top { float: left; width: 213px; background: url(../images/subNavBGTop.png) no-repeat top left; padding: 20px 20px 16px 20px; }
-#subnav .bottom { float: left; width: 253px; height: 4px; background: url(../images/subNavBGBottom.png) no-repeat top left; line-height: 0; font-size: 0; }
+#subnav .top { float: left; width: 213px; background: url(images/subNavBGTop.png) no-repeat top left; padding: 20px 20px 16px 20px; }
+#subnav .bottom { float: left; width: 253px; height: 4px; background: url(images/subNavBGBottom.png) no-repeat top left; line-height: 0; font-size: 0; }
 #subnav h3 { margin-bottom: 20px; }
 #subnav ul li { margin: 0 0 12px 0; padding-left: 10px; line-height: 16px; width: 211px; clear: left; }
 #pageCopy { width: 532px; float: right; }

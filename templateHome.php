@@ -9,28 +9,28 @@ get_header(); ?>
 
 <ul id="homeContent" class="clearfix">
   <li>
-    <img src="<?php bloginfo('template_directory'); ?>/style/images/homeContentForStudents.jpg" alt="Photo of Student" class="photo" />
-    <h3><a href="<?php echo site_url('students'); ?>"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeHeaderForStudents.gif" alt="For Student" class="headline" /></a></h3>
+    <img src="<?php bloginfo('template_directory'); ?>/images/homeContentForStudents.jpg" alt="Photo of Student" class="photo" />
+    <h3><a href="<?php echo site_url('students'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/homeHeaderForStudents.gif" alt="For Student" class="headline" /></a></h3>
     <div class="copy">
       <p><strong>Are you a student looking to go to college?</strong> If you&#8217;re in school now and want to go to college, click here to find the resources you need to get there.</p>
     </div>
-    <a href="<?php echo site_url('students'); ?>" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeButtonForStudents.png" alt="Resources For Students" /></a>
+    <a href="<?php echo site_url('students'); ?>" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/images/homeButtonForStudents.png" alt="Resources For Students" /></a>
   </li>
   <li>
-    <img src="<?php bloginfo('template_directory'); ?>/style/images/homeContentForParents.jpg" alt="Photo of Student" class="photo" />
-    <h3><a href="<?php echo site_url('parentsandmentors'); ?>"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeHeaderForParents.gif" alt="For Students" class="headline" /></a></h3>
+    <img src="<?php bloginfo('template_directory'); ?>/images/homeContentForParents.jpg" alt="Photo of Student" class="photo" />
+    <h3><a href="<?php echo site_url('parentsandmentors'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/homeHeaderForParents.gif" alt="For Students" class="headline" /></a></h3>
     <div class="copy">
      <p><strong>Are you an adult looking to help a student go to college?</strong> If there&#8217;s a student in your life who wants to go to college, click here to find the resources you need to help them get there.<p>
     </div>
-    <a href="<?php echo site_url('parentsandmentors'); ?>" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeButtonForParents.png" alt="Resources For Students" /></a>
+    <a href="<?php echo site_url('parentsandmentors'); ?>" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/images/homeButtonForParents.png" alt="Resources For Students" /></a>
   </li>
   <li class="last">
-    <img src="<?php bloginfo('template_directory'); ?>/style/images/homeContentForAdultStudents.jpg" alt="Photo of Student" class="photo" />
-    <h3><a href="<?php echo site_url('adultstudents'); ?>"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeHeaderForAdultStudents.gif" alt="For Students" class="headline" /></a></h3>
+    <img src="<?php bloginfo('template_directory'); ?>/images/homeContentForAdultStudents.jpg" alt="Photo of Student" class="photo" />
+    <h3><a href="<?php echo site_url('adultstudents'); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/homeHeaderForAdultStudents.gif" alt="For Students" class="headline" /></a></h3>
     <div class="copy">
       <p><strong>Are you an adult (19 years of age or older) and have some college credit or have never attended college and want to get a degree?</strong> Click here to find the resources you need to get there.</p>
     </div>
-    <a href="<?php echo site_url('adultstudents'); ?>" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeButtonForAdultStudents.png" alt="Resources For Students" /></a>
+    <a href="<?php echo site_url('adultstudents'); ?>" class="buttonLink"><img src="<?php bloginfo('template_directory'); ?>/images/homeButtonForAdultStudents.png" alt="Resources For Students" /></a>
   </li>
 </ul>
 <span style="font-size:medium;"> <i> The PhillyGoes2College office is a referral center within the Mayor’s Office of Education that helps Philadelphians of all ages earn a college degree. When you call, email, or visit the office we will connect you with organizations that will help you through the college application process. We can also provide information on preparing for college, returning to college as an adult, finding financial aid, and much more.  <a href="<?php echo site_url('1215-2'); ?>" target=blank>Para www.PhillyGoes2College.com en Español haga clic aquí.</a> </i> </span>
@@ -56,15 +56,15 @@ get_header(); ?>
   
       </p>
       <div id="nutter">
-  <img src="<?php bloginfo('template_directory'); ?>/style/images/homeMichaelNutter.png" alt="" id="michaelNutter" />
-  <img src="<?php bloginfo('template_directory'); ?>/style/images/homeNutterQuote.png" alt="&#8220;Let&#8217;s make Philadelphia a place where anyone, the young and the not so young, who wants to earn a college degree can get the support they need.&#8221;" id="nutterQuote" />
-  <a href="<?php bloginfo('template_directory'); ?>/style/images/nutterLetter.jpg" class="lightbox">Read a letter from Mayor Michael Nutter</a>
+  <img src="<?php bloginfo('template_directory'); ?>/images/homeMichaelNutter.png" alt="" id="michaelNutter" />
+  <img src="<?php bloginfo('template_directory'); ?>/images/homeNutterQuote.png" alt="&#8220;Let&#8217;s make Philadelphia a place where anyone, the young and the not so young, who wants to earn a college degree can get the support they need.&#8221;" id="nutterQuote" />
+  <a href="<?php bloginfo('template_directory'); ?>/images/nutterLetter.jpg" class="lightbox">Read a letter from Mayor Michael Nutter</a>
 </div>
 
 <div id="bottomContent" class="clearfix">
   <div id="topReasons" class="clearfix">
     <div class="top">
-      <h4><img src="<?php bloginfo('template_directory'); ?>/style/images/homeTopReasonsHeader.gif" alt="Five Most Important Steps To Take If You Want To Go To College:" class="headline" /></h4>
+      <h4><img src="<?php bloginfo('template_directory'); ?>/images/homeTopReasonsHeader.gif" alt="Five Most Important Steps To Take If You Want To Go To College:" class="headline" /></h4>
       <ol>
         <li><span>If you&#8217;re in 9th grade, you should start to plan ahead NOW to choose the high school classes you will need to get into the college of your choice. Check with your college guidance counselor to make sure you&#8217;re on the right track.</span></li>
         <li><span>If you are in high school, you&#8217;ll need to take a college admission test to get admitted to college.  Take the PSATs (which is a practice test), prior to taking the SAT or ACT test. Check out the <a href="http://www.freelibrary.org">Free Library</a> near you for resources to study for the tests. They have books to help you study and also provide free SAT prep classes throughout the year. They provide free SAT prep classes and basic college prep workshops throughout the year.</span></li>
@@ -76,12 +76,12 @@ get_header(); ?>
     <div class="bottom"></div>
   </div>
   <div id="upcomingEvents" class="clearfix">
-    <h4><img src="<?php bloginfo('template_directory'); ?>/style/images/homeUpcomingHeader.png" alt="Upcoming Events To Help You Go 2 College" class="headline" /></h4>
+    <h4><img src="<?php bloginfo('template_directory'); ?>/images/homeUpcomingHeader.png" alt="Upcoming Events To Help You Go 2 College" class="headline" /></h4>
     <p><a href="<?php echo site_url('category/events/month'); ?>">Click here</a> to find events that are free or low cost that will help you go 2 college.</p>
     <?php get_sidebar(); ?>
   </div>
   <div id="stopIn">
-    <h4><img src="<?php bloginfo('template_directory'); ?>/style/images/homeStopInHeader.png" alt="Stop In and See Us" class="headline" /></h4>
+    <h4><img src="<?php bloginfo('template_directory'); ?>/images/homeStopInHeader.png" alt="Stop In and See Us" class="headline" /></h4>
     <p>
       Stay informed on upcoming events and important deadlines, follow us on <strong> <FONT COLOR="1E90FF"> FACEBOOK </FONT> </strong> and <strong> <FONT COLOR="1E90FF">TWITTER</FONT></strong>! 
       <p>
@@ -97,7 +97,7 @@ get_header(); ?>
      <br>
     <p>
    <p>
-      <a href="http://www.phila.gov/"><img src="<?php bloginfo('template_directory'); ?>/style/images/homeCityLogo.png" alt="City of Philadelphia" class="headline" /></a>
+      <a href="http://www.phila.gov/"><img src="<?php bloginfo('template_directory'); ?>/images/homeCityLogo.png" alt="City of Philadelphia" class="headline" /></a>
     </div>
   </div>
 </div>
@@ -109,7 +109,7 @@ get_header(); ?>
     <br>
       Please call 215.686.0315 if you would like information about college. 
   </div>
-  <img src="<?php bloginfo('template_directory'); ?>/style/images/alternateLanguages.png" alt="If you need help in a language other than English." class="headline" />
+  <img src="<?php bloginfo('template_directory'); ?>/images/alternateLanguages.png" alt="If you need help in a language other than English." class="headline" />
  </div>
     
 
