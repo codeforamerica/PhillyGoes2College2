@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-
+<div class="blog">
 	<div id="updates_sidebar" role="complementary">
 		<ul>
 			<?php 	/* Widgetized sidebar, if you have the plugin installed. */
@@ -70,5 +70,5 @@
 	
 	<?php endif; ?>
     
-    
+ </div>   
 <?php get_footer(); ?>
