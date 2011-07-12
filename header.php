@@ -62,11 +62,16 @@ ob_start('relative_links');
 	</head>
 	
 	<body <?php body_class(); ?>>
-		
+	<div id="wrapper">
 		<div id="headerWrapper">
 			<div id="header" class="clearfix">
+				<ul class="meta">
+					<li><a href="http://www.facebook.com/pages/Philadelphia-PA/PhillyGoes2College/270185798220" title="Fan us on Facebook!"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/facebook.png" alt="Facebook" /></li></a>
+					<li><a href="http://twitter.com/Philly2College" title="Follow us on Twitter!"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/twitter.png" alt="Twitter" /></li></a>
+					<li><a href="<?php echo site_url('1215-2'); ?>">Espa&ntilde;ol</a></li>
+				</ul>
 				<h1><a href="<?php echo get_option('home'); ?>/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/headerLogo.png" alt="Philly Goes 2 College" /></a></h1>
-					<?php wp_nav_menu(array('menu' => 'top_nav')); ?>
+				<?php wp_nav_menu(array('menu' => 'top_nav')); ?>
 			</div>
 		</div>
 		<div id="contentWrapper">

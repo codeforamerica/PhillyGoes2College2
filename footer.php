@@ -9,19 +9,24 @@
 			</div><!-- END id="content" -->
 
 				<div id="footer" class="clearfix">
-<!--
-					<ul>
-						<?php wp_list_pages('depth=1&title_li=<h2>Pages</h2>&exclude=201,284,332,337' ); ?>
-					</ul>
--->
-					<div id="terms">
-						<a href="<?php echo site_url('terms-of-use'); ?>">PhillyGoes2College Terms of Use</a>
-						<a href="<?php echo site_url('privacy-statement'); ?>" style="margin-left: 20px;">Privacy Statement</a>
+					<div class="contact">
+						<p class="hours">We're open weekdays 9am-5pm.</p>
+						<p><strong>Text</strong> COLLEGE to 888777 for important deadlines and events.</p>
+						<p><strong>Visit</strong> City Hall ground floor, Room 115 Market Street East side</p>
+						<p><strong>Call</strong> 215.686.0315</p>
+						<p><strong>Email</strong> <a href="mailto:info@PhillyGoes2College.com">info@PhillyGoes2College.com</a></p>
 					</div>
+					<div class="philly_logo">
+						<a href="http://www.phila.gov/"><img src="<?php bloginfo('template_directory'); ?>/images/homeCityLogo.png" alt="City of Philadelphia" class="headline" /></a>					
+					</div>
+
 				</div>
 		</div><!-- END id="contentWrapper" -->
-
-
+</div> <!-- wrapper -->
+						
+		<div id="sub_footer">
+			<?php wp_nav_menu(array('menu' => 'footer')); ?>
+		</div>
 
 
 		<script type="text/javascript">

@@ -11,7 +11,12 @@ Author URI: http://www.josephfritz.com
 /*--- GENERAL STYLING ---*/
 body { 
 	text-align: center;
-	background: url(images/bodyBG.png) repeat top left; font-size: 13px; line-height: 22px; color: #1f1d11; font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif; color: #333;  }
+	font-size: 13px; line-height: 22px; 
+	font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif; 
+	color: #333;
+	background-color: #f0f0f0;
+	  }
+
 a { color: #005e98; text-decoration: underline; }
 
 #contentWrapper{
@@ -35,26 +40,41 @@ h3{
 	font-weight: 100;
 }
 
+.menu li{
+	float:left;
+	padding: 0 5px;
+}
+#wrapper{
+	width: 860px;
+	margin: 0 auto;
+	text-align: left;
+	-moz-box-shadow: 0px 0px 10px #999; -webkit-box-shadow: 0px 0px 10px #999; box-shadow: 0px 0px 10px #999;
+	background: url(images/bodyBG.png) repeat top left; 
+	border:1px solid #aaa;
+	border-top:none;
+}
+
 /*--- HEADER ---*/
 #headerWrapper { background: #a4d8f7 url(images/headerWrapperBG.png) repeat-x top left; height: 150px; text-align: center; padding: 0 20px; }
 #header { background: url(images/headerBG.png) no-repeat bottom center; width: 810px; height: 150px; padding: 0; margin: 0 auto; text-align: left;  }
 #header h1 a { width: 160px; height: 166px; float: left; }
+#header ul.meta { float:right; height:0px; }
+#header ul.meta li { float:left; margin: 1ex .3em; line-height: 16px; }
+
 
 /* TOP NAV */
 #menu-top-navigation{
 	float:right;
-	margin-top: 116px;
+	margin-top: 120px;
 }
 #menu-top-navigation li{
-	padding: 0 5px;
-	float:left;
-	height:34px;
+	height:30px;
 }
 #menu-top-navigation a{
-	font-size: 135%;
-	height:34px;
-	line-height: 34px;
-	padding:0 20px;
+	font-size: 120%;
+	height:30px;
+	line-height: 30px;
+	padding:0 15px;
 	color: #fff;
 	text-decoration: none;
 	display: block;
@@ -69,8 +89,13 @@ h3{
 	box-shadow: 0px -1px 2px #555;	
 }
 
+/* Selected tab */
+/* Why can't WP make this more consistant!?  */
 #menu-top-navigation .current_page_item a,
 #menu-top-navigation .current_page_item a:hover,
+#menu-top-navigation .current-menu-item a,
+#menu-top-navigation .current-menu-item a:hover,
+
 #menu-top-navigation .current-page-ancestor a,
 #menu-top-navigation .current-page-ancestor a:hover {
 	background-image: url('images/contentWrapperBG.png');
@@ -106,6 +131,11 @@ h3{
 .subnav li{
 	margin: .5em;
 }
+.subnav .current_page_item{
+	background: url("images/subNavArrow.gif") no-repeat scroll 0 3px transparent;
+    line-height: 16px;
+    padding-left: 13px;
+}
 
 /* PAGE */
 .post{
@@ -120,52 +150,183 @@ h3{
 	font-weight: bold;
 }
 .post h2{
-	margin-bottom:1em;
+	margin-bottom:.5em;
 }
 
 /* FOOTER */
 #footer{
-	width: 100%;
+	width: 840px;
 	clear: both;
-	padding-top:2em;
-	text-align: right;
-	margin:0 auto;
-	width:800px;
+	background-color: #005E98;
+	border-top:1px solid #666;
+	color: #e0e0e0;
+	padding: 10px;
+}
+#footer a{
+	color:#ddd;
+	text-decoration: none;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
+#footer strong{
+	color: #000;
+}
+#footer .contact{
+	float:left;
+}
+#footer .hours{
+	font-style: oblique;
+}
+#footer .philly_logo{
+	float:right;
+	background-color: #91D3F5;
+	padding:10px 10px 5px 10px;
+	-moz-box-shadow: 0px 0px 10px #999; -webkit-box-shadow: 0px 0px 10px #999; box-shadow: inset 0px 0px 10px #666;
+	margin-top:1em;
+	margin-right:.5em;
+}
+
+#sub_footer{
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+	width:860px;	
+}
+#sub_footer .menu{
+	float:right;
+}
+
+/* SITEMAP */
+ul.children{
+	margin-left:1em;
 }
 
 /*--- HOME PAGE ---*/
-ul#homeContent { margin: 0 0 35px 0; }
-ul#homeContent li { float: left; width: 253px; height: 457px; margin-right: 25px; background: url(images/homeContentBG.png) no-repeat top left; }
+ul#homeContent li { float: left; width: 253px; height: 457px; margin-right: 25px; background: url(images/homeContentBG.png) no-repeat top left; cursor:pointer; }
 ul#homeContent li.last { margin: 0; }
 ul#homeContent li .photo { margin: 0 0 0 1px; }
 ul#homeContent li h3 { padding: 0 0 5px 20px; }
 ul#homeContent li .copy { height: 145px; line-height: 20px; }
 ul#homeContent li p { padding: 0 20px; margin: 13px 0 0 0; }
 ul#homeContent li p.strong { font-weight: bold; }
-ul#homeContent li a.buttonLink { margin: 0 0 0 17px; display: block; }
-#nutter { height: 141px; border: 1px solid #b7b7b7; border-left: 0; border-right: 0; margin: 0 0 38px 0;}
-#nutter #michaelNutter { float: left; margin: 10px 0 0 52px; }
-#nutter #nutterQuote { float: right; margin: 25px 36px 0 0; }
-#nutter a { float: right; clear: right; margin: 6px 36px 0 0; }
-#topReasons { width: 361px; float: left; margin: 0 0 35px 0; }
-#topReasons .top { float: left; width: 319px; background: url(images/homeTopReasonsTop.png) no-repeat top left; padding: 20px 20px 10px 20px; }
-#topReasons h4 { margin: 0 0 15px 0; }
-#topReasons ol { list-style-type: decimal; margin-left: 20px; }
-#topReasons ol li { margin-bottom: 15px; font-weight: bold; }
-#topReasons ol li span { font-weight: 400; }
-#topReasons .bottom { float: left; width: 361px; height: 9px; line-height: 0; background: url(images/homeTopReasonsBottom.png) no-repeat top left; }
-#pleaseCall { margin-bottom: 24px; font-weight: bold; font-size: 16px; text-align: center; }
-#upcomingEvents { float: right; width: 418px; border-bottom: 1px solid #b7b7b7; padding: 0 0 20px 0; margin-bottom: 20px; }
-#upcomingEvents h4 { margin-bottom: 12px; }
-#upcomingEvents p { margin-bottom: 20px; }
-#upcomingEvents .what { line-height: 12px; }
-#upcomingEvents .event { margin-top: -2px; line-height: 16px; }
-#upcomingEvents .event p { margin: 0; line-height: 16px; }
-#upcomingEvents .upcoming li { margin-bottom: 12px; }
-#upcomingEvents .calendarImage { float: left; width: 18px; margin: 0 12px 0 0; }
-#upcomingEvents .calendarDetails { float: left; width: 388px; position: relative; top: -4px; }
-h2.widgettitle { display: none; }
-#stopIn { float: right; clear: right; width: 418px; margin-bottom: 35px; }
-#stopIn h4 { margin-bottom: 8px; }
-#stopIn .image { margin-top: 20px; padding-top: 20px; border-top: 1px solid #b7b7b7; }
-#alternateLanguages { border-top: 1px solid #b7b7b7; margin: 0 0 38px 0; padding-top: 38px; }
+ul#homeContent li a.buttonLink { 
+	font-size: 140%;
+	padding:.5em;
+	color: #fafafa;
+	text-decoration: none;
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background: #0076aa -webkit-gradient(linear, 0% 0%, 0% 100%, from(#00b2e9), to(#0076aa));
+	background: #0076aa -moz-linear-gradient(-90deg,#00b2e9,#0076aa);
+	-moz-box-shadow: 0px 0 2px #555;
+	-webkit-box-shadow: 0px 0 2px #555;
+	box-shadow: 0px 0 2px #555;	
+	border: 1px solid #00639C;
+	text-shadow: 1px 1px 1px #000;
+	line-height: 1.1em;
+ }
+ul#homeContent li a.buttonLink:hover{ 
+	background: #0076aa -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0076aa), to(#00b2e9));
+	background: #0076aa -moz-linear-gradient(-90deg,#0076aa,#00b2e9);
+}
+ul#homeContent li a.buttonLink:active{ 
+	-moz-box-shadow: 0px 0 4px #000;
+	-webkit-box-shadow: 0px 0 4px #000;
+}
+div#mayor{
+	float:left;
+	width:47%;
+	margin-top:1em;
+}
+p.blurb{ margin: 1em 0;}
+div.languages{
+	float:right;
+	margin-top:2em;
+	border-left: 1px dashed #bbb;
+	padding-left:20px;
+}
+#nutter img{
+	float:right;
+}
+#nutter p.quote{
+	font-size: 115%;
+}
+
+/* EVENTS PAGE */
+.category-events #content #tec-content 
+{
+	background: none;
+}
+.category-events #content #tec-content h2{
+	margin-bottom: 1.5em;
+	text-align: center;
+	float: none;
+	width:100%;
+}
+.category-events #content #tec-content .tec-month-nav{
+	left:0;
+}
+.category-events #content #tec-content .tec-calendar-buttons{
+	margin-top:.7em;
+}
+.category-events #content #tec-content th{
+	color:#333;
+	text-shadow: none;
+}
+.category-events #content #tec-content .ical{
+	display:none;
+}
+.category-events #content #tec-content table{
+	background-color: #fff;
+	-moz-box-shadow: 2px 2px 6px #aaa;
+	-webkit-box-shadow:  2px 2px 6px #aaa;
+	margin-bottom: 2em;
+	margin-top:0;
+}
+
+/* UPDATES PAGE */
+.post{
+	background-color: #fff;
+	-moz-box-shadow: 0 0 3px #666;
+	-webkit-box-shadow:  2px 2px 6px #aaa;
+	margin: 1em 0;
+	padding: 1ex 1em;
+}
+.post img{
+	margin: 10px;
+}
+.post p{
+	margin: 1em 0;
+}
+.post ul, ol{
+	margin-left: 2em;
+}
+.post li{
+	margin: 1em 0;
+	list-style-position: outside;
+}
+.post ol li{
+	list-style-type: decimal;
+}
+.post ul li{
+	list-style-type: disc;
+}
+#updates_sidebar{
+	float:left;
+	margin-top:1em;
+}
+#updates_sidebar li{
+	margin: 1em 0;
+}
+#updates_sidebar li li{
+	margin: 0;
+}
+.blog_nav{
+	clear:both;
+	text-align: right;
+}
