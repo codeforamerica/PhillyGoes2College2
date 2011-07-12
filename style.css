@@ -290,30 +290,30 @@ div.languages{
 }
 
 /* UPDATES PAGE */
-.post{
+.blog .post{
 	background-color: #fff;
 	-moz-box-shadow: 0 0 3px #666;
 	-webkit-box-shadow:  2px 2px 6px #aaa;
 	margin: 1em 0;
 	padding: 1ex 1em;
 }
-.post img{
+.blog .post img{
 	margin: 10px;
 }
-.post p{
+.blog .post p{
 	margin: 1em 0;
 }
-.post ul, ol{
+.blog .post ul, ol{
 	margin-left: 2em;
 }
-.post li{
+.blog .post li{
 	margin: 1em 0;
 	list-style-position: outside;
 }
-.post ol li{
+.blog .post ol li{
 	list-style-type: decimal;
 }
-.post ul li{
+.blog .post ul li{
 	list-style-type: disc;
 }
 #updates_sidebar{
